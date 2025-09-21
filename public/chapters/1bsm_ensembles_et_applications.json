@@ -1,0 +1,39 @@
+{
+  "class": "1bsm",
+  "chapter": "Ensembles et applications",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_ensembles_1",
+      "question": "Soit $E = \\{a, b, c\\}$. Quel est le cardinal de l'ensemble des parties de E, noté $\\mathcal{P}(E)$ ?",
+      "options": [
+        { "text": "3" },
+        { "text": "6" },
+        { "text": "8", "isCorrect": true },
+        { "text": "9" }
+      ],
+      "explanation": "Pour un ensemble fini E de cardinal n, le cardinal de son ensemble des parties $\\mathcal{P}(E)$ est $2^n$. Ici, n = 3, donc card($\\mathcal{P}(E)$) = $2^3 = 8$."
+    },
+    {
+      "id": "q_applications_1",
+      "question": "L'application $f: \\mathbb{R} \\to \\mathbb{R}$ définie par $f(x) = x^2$ est-elle surjective ?",
+      "options": [
+        { "text": "Oui" },
+        { "text": "Non", "isCorrect": true }
+      ],
+      "explanation": "Une application est surjective si tout élément de l'ensemble d'arrivée a au moins un antécédent. Or, les nombres réels négatifs n'ont pas d'antécédent par $f(x)=x^2$. Par exemple, -1 n'a pas d'antécédent. L'application n'est donc pas surjective."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_ensembles_1",
+      "title": "Opérations sur les ensembles",
+      "statement": "Soient $A = \\{1, 2, 4, 5\\}$ et $B = \\{2, 3, 5, 6\\}$ deux parties d'un ensemble $E = \\{1, 2, 3, 4, 5, 6, 7\\}$.",
+      "sub_questions": [
+        { "text": "Déterminer $A \\cup B$." },
+        { "text": "Déterminer $A \\cap B$." },
+        { "text": "Déterminer le complémentaire de A dans E, noté $\\overline{A}$." }
+      ]
+    }
+  ]
+}

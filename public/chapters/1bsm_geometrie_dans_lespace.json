@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Géométrie dans l'espace",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_geo_espace_1",
+      "question": "L'équation $x - 2y + 3z - 5 = 0$ est l'équation cartésienne :",
+      "options": [
+        { "text": "D'une droite" },
+        { "text": "D'un plan", "isCorrect": true },
+        { "text": "D'une sphère" }
+      ],
+      "explanation": "Une équation de la forme $ax+by+cz+d=0$ (où a,b,c ne sont pas tous nuls) est l'équation cartésienne d'un plan dans l'espace."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_geo_espace_1",
+      "title": "Représentation paramétrique",
+      "statement": "Donner une représentation paramétrique de la droite (D) passant par le point $A(1,0,2)$ et dirigée par le vecteur $\\vec{u}(2, -1, 1)$."
+    }
+  ]
+}

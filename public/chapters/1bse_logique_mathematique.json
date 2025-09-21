@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Logique mathématique",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Quelle est la contraposée de l'implication 'P => Q' ?", "options": [{"text": "'non(P) => non(Q)'"}, {"text": "'non(Q) => non(P)'", "isCorrect": true}], "explanation": "La contraposée de 'P implique Q' est 'non Q implique non P'. Les deux propositions sont logiquement équivalentes."}],
+  "exercises": [{"id": "ex1", "title": "Raisonnement par l'absurde", "statement": "Montrer par l'absurde que $\\sqrt{2}$ est irrationnel."}]
+}

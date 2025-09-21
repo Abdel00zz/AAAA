@@ -1,0 +1,64 @@
+{
+  "class": "1bsm",
+  "chapter": "Structures Algébriques",
+  "sessionDate": "22 Sep 2024",
+  "quiz": [
+    {
+      "id": "q_algebra_1",
+      "question": "Soit $(G, *)$ un groupe. Laquelle de ces propriétés n'est PAS nécessairement une propriété de l'opération $*$ ?",
+      "options": [
+        { "text": "Associativité" },
+        { "text": "Existence d'un élément neutre" },
+        { "text": "Commutativité", "isCorrect": true },
+        { "text": "Existence d'un inverse pour chaque élément" }
+      ],
+      "explanation": "La commutativité ($a * b = b * a$) est la propriété qui définit un groupe abélien (ou commutatif). Elle n'est pas requise pour tous les groupes. Les trois autres propriétés (associativité, élément neutre, inverse) sont les axiomes de définition d'un groupe."
+    },
+    {
+      "id": "q_algebra_2",
+      "question": "Dans l'anneau $(\\mathbb{Z}, +, \\times)$, quel est l'élément neutre pour la multiplication (la deuxième loi) ?",
+      "options": [
+        { "text": "0" },
+        { "text": "1", "isCorrect": true },
+        { "text": "-1" },
+        { "text": "Il n'y en a pas" }
+      ],
+      "explanation": "Dans un anneau $(A, +, \\times)$, l'élément neutre pour la première loi (l'addition) est souvent noté 0, et celui pour la seconde loi (la multiplication) est souvent noté 1. Pour les entiers relatifs $\\mathbb{Z}$, on a bien $n \\times 1 = 1 \\times n = n$ pour tout entier $n$. C'est donc 1."
+    },
+    {
+      "id": "q_algebra_3",
+      "question": "Lequel de ces ensembles, muni de l'addition, ne forme PAS un groupe ?",
+      "options": [
+        { "text": "$(\\mathbb{N}, +)$", "isCorrect": true },
+        { "text": "$(\\mathbb{Z}, +)$" },
+        { "text": "$(\\mathbb{Q}, +)$" },
+        { "text": "$(\\mathbb{R}, +)$" }
+      ],
+      "explanation": "L'ensemble des entiers naturels $\\mathbb{N}$ muni de l'addition n'est pas un groupe car les éléments n'ont pas d'inverse. Par exemple, l'inverse de 3 serait -3, qui n'appartient pas à $\\mathbb{N}$. Les autres ensembles (entiers relatifs, rationnels, réels) forment des groupes avec l'addition."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_algebra_group",
+      "title": "Vérification d'une structure de groupe",
+      "statement": "On considère l'ensemble $E = \\{1, -1, i, -i\\}$ muni de la multiplication usuelle des nombres complexes, notée $\\times$. Montrer que $(E, \\times)$ est un groupe.",
+      "hint": [
+        {
+          "text": "Pour montrer que c'est un groupe, vous devez vérifier quatre points :",
+          "sub_questions": [
+            { "text": "La loi est interne (le produit de deux éléments de E est encore dans E)." },
+            { "text": "La loi est associative." },
+            { "text": "Il existe un élément neutre dans E." },
+            { "text": "Chaque élément de E a un inverse dans E pour la loi $\\times$." }
+          ]
+        }
+      ],
+      "sub_questions": [
+        { "text": "Dresser la table de multiplication de l'ensemble $E$ et vérifier que la loi est interne." },
+        { "text": "Identifier l'élément neutre de $(E, \\times)$." },
+        { "text": "Pour chaque élément de $E$, trouver son inverse." },
+        { "text": "Conclure. Le groupe est-il commutatif (abélien) ?" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Calcul trigonométrique",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Que vaut $\\cos(a+b)$ ?", "options": [{"text": "$\\cos a \\cos b + \\sin a \\sin b$"}, {"text": "$\\cos a \\cos b - \\sin a \\sin b$", "isCorrect": true}], "explanation": "C'est la formule d'addition pour le cosinus."}],
+  "exercises": [{"id": "ex1", "title": "Résolution d'équation", "statement": "Résoudre dans $]-\\pi, \\pi]$ l'équation $\\cos(2x) = \\frac{1}{2}$."}]
+}

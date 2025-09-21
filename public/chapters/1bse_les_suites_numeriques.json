@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Les suites numériques",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Quelle est la formule de la somme des k premiers termes d'une suite géométrique de raison q ?", "options": [{"text": "$u_0 \\frac{1-q^{k+1}}{1-q}$", "isCorrect": true}, {"text": "$u_0 \\frac{1-q^k}{1-q}$"}], "explanation": "La somme des termes de $u_0$ à $u_k$ (soit k+1 termes) est $u_0 \\frac{1-q^{k+1}}{1-q}$."}],
+  "exercises": [{"id": "ex1", "title": "Monotonie", "statement": "Étudier la monotonie de la suite $(u_n)$ définie par $u_n = 3n-5$."}]
+}

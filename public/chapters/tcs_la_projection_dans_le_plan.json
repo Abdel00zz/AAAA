@@ -1,0 +1,24 @@
+{
+  "class": "tcs",
+  "chapter": "La projection dans le plan",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_tcs_projection_1",
+      "question": "L'image d'une droite par une projection sur une autre droite est :",
+      "options": [
+        { "text": "Toujours une droite" },
+        { "text": "Toujours un point" },
+        { "text": "Un point ou une droite", "isCorrect": true }
+      ],
+      "explanation": "Si la droite à projeter est parallèle à la direction de projection, son image est un point. Sinon, c'est la droite sur laquelle on projette."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_tcs_projection_1",
+      "title": "Projection d'un point",
+      "statement": "Soit (D) la droite d'équation $y=x$ et (D') l'axe des abscisses. Construire l'image d'un point $M(2,3)$ sur (D') par la projection parallèle à l'axe des ordonnées."
+    }
+  ]
+}

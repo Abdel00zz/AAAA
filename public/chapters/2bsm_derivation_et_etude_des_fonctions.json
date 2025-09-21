@@ -1,0 +1,8 @@
+
+{
+  "class": "2bsm",
+  "chapter": "Dérivation et étude des fonctions",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Que dit le théorème de Rolle ?", "options": [{"text": "Si f est continue sur [a,b], dérivable sur ]a,b[ et f(a)=f(b), alors il existe c dans ]a,b[ tel que f'(c)=0.", "isCorrect": true}, {"text": "Toute fonction continue sur [a,b] atteint ses bornes."}], "explanation": "Le théorème de Rolle garantit l'existence d'un point où la tangente est horizontale sous certaines conditions."}],
+  "exercises": [{"id": "ex1", "title": "Tableau de variation", "statement": "Étudier les variations de la fonction $f(x) = x e^{-x}$."}]
+}

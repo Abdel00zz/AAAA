@@ -1,0 +1,24 @@
+{
+  "class": "2bse",
+  "chapter": "Limites et continuité",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_2bse_limites_1",
+      "question": "Quelle est la limite de $f(x) = e^x$ quand $x$ tend vers $-\\infty$ ?",
+      "options": [
+        { "text": "$+\\infty$" },
+        { "text": "0", "isCorrect": true },
+        { "text": "1" }
+      ],
+      "explanation": "La fonction exponentielle tend vers 0 lorsque la variable tend vers moins l'infini."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_2bse_limites_1",
+      "title": "Théorème des valeurs intermédiaires",
+      "statement": "Montrer que l'équation $x^3 + x - 1 = 0$ admet une unique solution dans l'intervalle $[0, 1]$."
+    }
+  ]
+}

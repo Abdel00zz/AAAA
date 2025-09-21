@@ -1,0 +1,318 @@
+
+{
+  "tcs": [
+    {
+      "id": "les-ensembles-de-nombres-n-z-q-d-et-r",
+      "file": "tcs_les_ensembles_de_nombres.json",
+      "isActive": false
+    },
+    {
+      "id": "arithmetique-dans-n",
+      "file": "tcs_arithmetique_dans_n.json",
+      "isActive": false
+    },
+    {
+      "id": "calcul-vectoriel-dans-le-plan",
+      "file": "tcs_calcul_vectoriel_dans_le_plan.json",
+      "isActive": false
+    },
+    {
+      "id": "la-projection-dans-le-plan",
+      "file": "tcs_la_projection_dans_le_plan.json",
+      "isActive": false
+    },
+    {
+      "id": "lordre-dans-r",
+      "file": "tcs_lordre_dans_r.json",
+      "isActive": false
+    },
+    {
+      "id": "la-droite-dans-le-plan",
+      "file": "tcs_la_droite_dans_le_plan.json",
+      "isActive": false
+    },
+    {
+      "id": "les-polynomes",
+      "file": "tcs_les_polynomes.json",
+      "isActive": false
+    },
+    {
+      "id": "equations-inequations-et-systemes",
+      "file": "tcs_equations_inequations_et_systemes.json",
+      "isActive": false
+    },
+    {
+      "id": "trigonometrie-1-regles-du-calcul-trigonometrique",
+      "file": "tcs_trigonometrie_1.json",
+      "isActive": false
+    },
+    {
+      "id": "trigonometrie-2-equations-et-inequations-trigonometriques",
+      "file": "tcs_trigonometrie_2.json",
+      "isActive": false
+    },
+    {
+      "id": "generalites-sur-les-fonctions",
+      "file": "tcs_generalites_sur_les_fonctions.json",
+      "isActive": false
+    },
+    {
+      "id": "geometrie-dans-lespace",
+      "file": "tcs_geometrie_dans_lespace.json",
+      "isActive": false
+    }
+  ],
+  "1bsm": [
+    {
+      "id": "logique-mathematique",
+      "file": "1bsm_logique_mathematique.json",
+      "isActive": true
+    },
+    {
+      "id": "ensembles-et-applications",
+      "file": "1bsm_ensembles_et_applications.json",
+      "isActive": true
+    },
+    {
+      "id": "generalites-sur-les-fonctions",
+      "file": "1bsm_generalites_sur_les_fonctions.json",
+      "isActive": false
+    },
+    {
+      "id": "le-barycentre-dans-le-plan",
+      "file": "1bsm_le_barycentre_dans_le_plan.json",
+      "isActive": false
+    },
+    {
+      "id": "le-produit-scalaire-dans-le-plan",
+      "file": "1bsm_le_produit_scalaire_dans_le_plan.json",
+      "isActive": false
+    },
+    {
+      "id": "calcul-trigonometrique",
+      "file": "1bsm_calcul_trigonometrique.json",
+      "isActive": false
+    },
+    {
+      "id": "les-suites-numeriques",
+      "file": "1bsm_les_suites_numeriques.json",
+      "isActive": false
+    },
+    {
+      "id": "limites-dune-fonction",
+      "file": "1bsm_limites_dune_fonction.json",
+      "isActive": false
+    },
+    {
+      "id": "la-rotation-dans-le-plan",
+      "file": "1bsm_la_rotation_dans_le_plan.json",
+      "isActive": false
+    },
+    {
+      "id": "la-derivation",
+      "file": "1bsm_la_derivation.json",
+      "isActive": false
+    },
+    {
+      "id": "etude-des-fonctions",
+      "file": "1bsm_etude_des_fonctions.json",
+      "isActive": false
+    },
+    {
+      "id": "vecteurs-de-lespace",
+      "file": "1bsm_vecteurs_de_lespace.json",
+      "isActive": false
+    },
+    {
+      "id": "geometrie-dans-lespace",
+      "file": "1bsm_geometrie_dans_lespace.json",
+      "isActive": false
+    },
+    {
+      "id": "denombrement",
+      "file": "1bsm_denombrement.json",
+      "isActive": false
+    },
+    {
+      "id": "le-produit-scalaire-dans-lespace",
+      "file": "1bsm_le_produit_scalaire_dans_lespace.json",
+      "isActive": false
+    },
+    {
+      "id": "arithmetique-dans-z",
+      "file": "1bsm_arithmetique_dans_z.json",
+      "isActive": false
+    }
+  ],
+  "1bse": [
+    {
+      "id": "logique-mathematique",
+      "file": "1bse_logique_mathematique.json",
+      "isActive": false
+    },
+    {
+      "id": "ensembles-et-applications",
+      "file": "1bse_ensembles_et_applications.json",
+      "isActive": false
+    },
+    {
+      "id": "generalites-sur-les-fonctions",
+      "file": "1bse_generalites_sur_les_fonctions.json",
+      "isActive": false
+    },
+    {
+      "id": "le-barycentre-dans-le-plan",
+      "file": "1bse_le_barycentre_dans_le_plan.json",
+      "isActive": false
+    },
+    {
+      "id": "le-produit-scalaire-dans-le-plan",
+      "file": "1bse_le_produit_scalaire_dans_le_plan.json",
+      "isActive": false
+    },
+    {
+      "id": "calcul-trigonometrique",
+      "file": "1bse_calcul_trigonometrique.json",
+      "isActive": false
+    },
+    {
+      "id": "les-suites-numeriques",
+      "file": "1bse_les_suites_numeriques.json",
+      "isActive": false
+    },
+    {
+      "id": "limites-dune-fonction",
+      "file": "1bse_limites_dune_fonction.json",
+      "isActive": false
+    },
+    {
+      "id": "la-derivation",
+      "file": "1bse_la_derivation.json",
+      "isActive": false
+    },
+    {
+      "id": "etude-des-fonctions",
+      "file": "1bse_etude_des_fonctions.json",
+      "isActive": false
+    },
+    {
+      "id": "geometrie-dans-lespace",
+      "file": "1bse_geometrie_dans_lespace.json",
+      "isActive": false
+    },
+    {
+      "id": "statistiques",
+      "file": "1bse_statistiques.json",
+      "isActive": false
+    }
+  ],
+  "2bse": [
+    {
+      "id": "limites-et-continuite",
+      "file": "2bse_limites_et_continuite.json",
+      "isActive": false
+    },
+    {
+      "id": "derivation-et-applications",
+      "file": "2bse_derivation_et_applications.json",
+      "isActive": false
+    },
+    {
+      "id": "etude-de-fonctions-et-representation-graphique",
+      "file": "2bse_etude_de_fonctions_et_representation_graphique.json",
+      "isActive": false
+    },
+    {
+      "id": "fonctions-logarithmes",
+      "file": "2bse_fonctions_logarithmes.json",
+      "isActive": false
+    },
+    {
+      "id": "fonctions-exponentielles",
+      "file": "2bse_fonctions_exponentielles.json",
+      "isActive": false
+    },
+    {
+      "id": "calcul-integral",
+      "file": "2bse_calcul_integral.json",
+      "isActive": false
+    },
+    {
+      "id": "equations-differentielles",
+      "file": "2bse_equations_differentielles.json",
+      "isActive": false
+    },
+    {
+      "id": "nombres-complexes",
+      "file": "2bse_nombres_complexes.json",
+      "isActive": false
+    },
+    {
+      "id": "calcul-de-probabilites",
+      "file": "2bse_calcul_de_probabilites.json",
+      "isActive": false
+    }
+  ],
+  "2bsm": [
+    {
+      "id": "limites-et-continuite",
+      "file": "2bsm_limites_et_continuite.json",
+      "isActive": false
+    },
+    {
+      "id": "suites-numeriques",
+      "file": "2bsm_suites_numeriques.json",
+      "isActive": false
+    },
+    {
+      "id": "derivation-et-etude-des-fonctions",
+      "file": "2bsm_derivation_et_etude_des_fonctions.json",
+      "isActive": false
+    },
+    {
+      "id": "fonctions-logarithmiques",
+      "file": "2bsm_fonctions_logarithmiques.json",
+      "isActive": false
+    },
+    {
+      "id": "fonctions-exponentielles",
+      "file": "2bsm_fonctions_exponentielles.json",
+      "isActive": false
+    },
+    {
+      "id": "nombres-complexes",
+      "file": "2bsm_nombres_complexes.json",
+      "isActive": false
+    },
+    {
+      "id": "calcul-integral",
+      "file": "2bsm_calcul_integral.json",
+      "isActive": false
+    },
+    {
+      "id": "equations-differentielles",
+      "file": "2bsm_equations_differentielles.json",
+      "isActive": false
+    },
+    {
+      "id": "arithmetique-dans-z",
+      "file": "2bsm_arithmetique_dans_z.json",
+      "isActive": false
+    },
+    {
+      "id": "structures-algebriques",
+      "file": "2bsm_structures_algebriques.json",
+      "isActive": false
+    },
+    {
+      "id": "espaces-vectoriels",
+      "file": "2bsm_espaces_vectoriels.json",
+      "isActive": false
+    },
+    {
+      "id": "calcul-de-probabilites",
+      "file": "2bsm_calcul_de_probabilites.json",
+      "isActive": false
+    }
+  ]
+}

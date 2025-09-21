@@ -1,0 +1,8 @@
+
+{
+  "class": "2bsm",
+  "chapter": "Fonctions exponentielles",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Quelle est la limite de $e^x$ en $+\\infty$ ?", "options": [{"text": "0"}, {"text": "$+\\infty$", "isCorrect": true}], "explanation": "La fonction exponentielle croît très rapidement vers l'infini."}],
+  "exercises": [{"id": "ex1", "title": "Inéquation", "statement": "Résoudre l'inéquation $e^{2x} < 1$."}]
+}

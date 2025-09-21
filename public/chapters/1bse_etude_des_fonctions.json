@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Étude des fonctions",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Comment trouve-t-on les extrema locaux d'une fonction dérivable ?", "options": [{"text": "En cherchant où la fonction s'annule"}, {"text": "En cherchant où la dérivée s'annule en changeant de signe", "isCorrect": true}], "explanation": "Les extrema locaux se trouvent aux points critiques où la dérivée s'annule et change de signe."}],
+  "exercises": [{"id": "ex1", "title": "Tableau de variation", "statement": "Étudier les variations de la fonction $f(x) = 2x^2-8x+1$."}]
+}

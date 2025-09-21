@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Le produit scalaire dans le plan",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Deux vecteurs non nuls sont orthogonaux si et seulement si...", "options": [{"text": "Leur produit scalaire est 1"}, {"text": "Leur produit scalaire est 0", "isCorrect": true}], "explanation": "La nullité du produit scalaire est la condition d'orthogonalité de deux vecteurs."}],
+  "exercises": [{"id": "ex1", "title": "Théorème d'Al-Kashi", "statement": "Dans un triangle ABC avec $AB=5$, $AC=6$ et $\\widehat{BAC} = 60^\\circ$, calculer la longueur BC."}]
+}

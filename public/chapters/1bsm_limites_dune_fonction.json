@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Limites d'une fonction",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_limites_1",
+      "question": "Quelle est la limite de $f(x) = \\frac{2x^2 - 1}{x^2 + 1}$ quand $x$ tend vers $+\\infty$ ?",
+      "options": [
+        { "text": "$+\\infty$" },
+        { "text": "0" },
+        { "text": "2", "isCorrect": true }
+      ],
+      "explanation": "Pour une fonction rationnelle en l'infini, la limite est celle du rapport des termes de plus haut degré : $\\lim_{x\\to+\\infty} \\frac{2x^2}{x^2} = 2$."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_limites_1",
+      "title": "Forme indéterminée",
+      "statement": "Calculer la limite suivante : $\\lim_{x\\to 2} \\frac{x^2 - 4}{x - 2}$."
+    }
+  ]
+}

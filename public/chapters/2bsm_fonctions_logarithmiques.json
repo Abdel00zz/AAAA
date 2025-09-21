@@ -1,0 +1,8 @@
+
+{
+  "class": "2bsm",
+  "chapter": "Fonctions logarithmiques",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Quelle est la dérivée de $\\ln(x)$ ?", "options": [{"text": "$x$"}, {"text": "$\\frac{1}{x}$", "isCorrect": true}], "explanation": "La dérivée de la fonction logarithme népérien est la fonction inverse."}],
+  "exercises": [{"id": "ex1", "title": "Équation", "statement": "Résoudre l'équation $\\ln(x-1) = 2$."}]
+}

@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Calcul trigonométrique",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_trigo_1",
+      "question": "Quelle est la valeur exacte de $\\cos(\\frac{\\pi}{3}) + \\sin(\\frac{\\pi}{6})$ ?",
+      "options": [
+        { "text": "$\\frac{1+\\sqrt{3}}{2}$" },
+        { "text": "1", "isCorrect": true },
+        { "text": "$\\sqrt{3}$" }
+      ],
+      "explanation": "On sait que $\\cos(\\frac{\\pi}{3}) = \\frac{1}{2}$ et $\\sin(\\frac{\\pi}{6}) = \\frac{1}{2}$. Leur somme est donc $\\frac{1}{2} + \\frac{1}{2} = 1$."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_trigo_1",
+      "title": "Équation trigonométrique",
+      "statement": "Résoudre dans $\\mathbb{R}$ l'équation suivante : $2\\cos(x) - 1 = 0$."
+    }
+  ]
+}

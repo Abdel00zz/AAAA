@@ -1,0 +1,24 @@
+{
+  "class": "tcs",
+  "chapter": "Trigonométrie 2 (Équations et inéquations trigonométriques)",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_tcs_trigo2_1",
+      "question": "L'équation $\\cos(x) = 1$ a pour solutions :",
+      "options": [
+        { "text": "$x = \\frac{\\pi}{2} + 2k\\pi$" },
+        { "text": "$x = 2k\\pi$", "isCorrect": true },
+        { "text": "$x = k\\pi$" }
+      ],
+      "explanation": "Le cosinus vaut 1 lorsque l'angle est un multiple de $2\\pi$. Les solutions sont donc de la forme $x = 2k\\pi$ avec k entier."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_tcs_trigo2_1",
+      "title": "Résolution d'équation",
+      "statement": "Résoudre dans $[0, 2\\pi]$ l'équation $\\sin(x) = \\frac{1}{2}$."
+    }
+  ]
+}

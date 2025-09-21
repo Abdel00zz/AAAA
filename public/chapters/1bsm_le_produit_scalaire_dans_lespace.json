@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Le produit scalaire dans l'espace",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_pscalaire_espace_1",
+      "question": "Un vecteur normal à un plan est un vecteur qui est...",
+      "options": [
+        { "text": "Parallèle au plan" },
+        { "text": "Orthogonal à tous les vecteurs du plan", "isCorrect": true },
+        { "text": "Contenu dans le plan" }
+      ],
+      "explanation": "Par définition, un vecteur normal à un plan est orthogonal à toute droite (et donc à tout vecteur directeur) de ce plan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_pscalaire_espace_1",
+      "title": "Équation de plan",
+      "statement": "Déterminer l'équation cartésienne du plan (P) passant par le point $A(1,1,1)$ et de vecteur normal $\\vec{n}(2, 1, -3)$."
+    }
+  ]
+}

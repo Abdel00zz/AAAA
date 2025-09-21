@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Limites d'une fonction",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Que vaut $\\lim_{x\\to 0} \\frac{\\sin x}{x}$ ?", "options": [{"text": "0"}, {"text": "1", "isCorrect": true}], "explanation": "C'est une limite de référence en trigonométrie."}],
+  "exercises": [{"id": "ex1", "title": "Asymptote", "statement": "Déterminer la limite en $+\\infty$ de $f(x) = \\sqrt{x^2+1}-x$."}]
+}

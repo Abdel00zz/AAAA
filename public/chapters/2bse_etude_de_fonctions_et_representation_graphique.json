@@ -1,0 +1,24 @@
+{
+  "class": "2bse",
+  "chapter": "Étude de fonctions et représentation graphique",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_2bse_etude_1",
+      "question": "Une asymptote verticale à la courbe d'une fonction $f$ en $a$ existe si :",
+      "options": [
+        { "text": "$\\lim_{x\\to a} f(x) = L$ (fini)" },
+        { "text": "$\\lim_{x\\to \\infty} f(x) = a$" },
+        { "text": "$\\lim_{x\\to a} f(x) = \\pm\\infty$", "isCorrect": true }
+      ],
+      "explanation": "La droite d'équation $x=a$ est une asymptote verticale si la limite de la fonction en $a$ est infinie."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_2bse_etude_1",
+      "title": "Étude complète",
+      "statement": "Étudier la fonction $f(x) = \\frac{2x-1}{x+1}$ (domaine de définition, limites, dérivée, tableau de variation et asymptotes)."
+    }
+  ]
+}

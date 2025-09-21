@@ -1,0 +1,24 @@
+{
+  "class": "tcs",
+  "chapter": "L'ordre dans ℝ",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_tcs_ordre_1",
+      "question": "L'intervalle $[2, 5[$ est :",
+      "options": [
+        { "text": "Ouvert" },
+        { "text": "Fermé" },
+        { "text": "Semi-ouvert", "isCorrect": true }
+      ],
+      "explanation": "L'intervalle est fermé à gauche (il inclut 2) et ouvert à droite (il exclut 5). Il est donc semi-ouvert."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_tcs_ordre_1",
+      "title": "Valeur absolue",
+      "statement": "Résoudre dans $\\mathbb{R}$ l'inéquation $|x - 3| \\le 2$."
+    }
+  ]
+}

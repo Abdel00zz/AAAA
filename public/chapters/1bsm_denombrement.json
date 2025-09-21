@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Dénombrement",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_denombrement_1",
+      "question": "On tire simultanément 3 boules d'une urne contenant 10 boules. Quel outil de dénombrement utilise-t-on ?",
+      "options": [
+        { "text": "Arrangement" },
+        { "text": "Permutation" },
+        { "text": "Combinaison", "isCorrect": true }
+      ],
+      "explanation": "Un tirage 'simultané' signifie que l'ordre n'a pas d'importance. On utilise donc les combinaisons."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_denombrement_1",
+      "title": "Calcul de combinaisons",
+      "statement": "Calculer le nombre de façons de choisir un comité de 3 personnes parmi un groupe de 8 personnes. Autrement dit, calculer $C_8^3$."
+    }
+  ]
+}

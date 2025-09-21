@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Arithmétique dans ℤ",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_arithmetique_1",
+      "question": "Quel est le PGCD (Plus Grand Commun Diviseur) de 48 et 36 ?",
+      "options": [
+        { "text": "6" },
+        { "text": "12", "isCorrect": true },
+        { "text": "18" }
+      ],
+      "explanation": "On décompose en facteurs premiers: $48 = 2^4 \\times 3$ et $36 = 2^2 \\times 3^2$. Le PGCD est le produit des facteurs communs avec le plus petit exposant: $2^2 \\times 3^1 = 4 \\times 3 = 12$."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_arithmetique_1",
+      "title": "Division Euclidienne",
+      "statement": "Effectuer la division euclidienne de 157 par 12. Donner le quotient et le reste."
+    }
+  ]
+}

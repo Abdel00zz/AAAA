@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Géométrie dans l'espace",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Deux plans sont parallèles si et seulement si...", "options": [{"text": "Leurs vecteurs normaux sont colinéaires", "isCorrect": true}, {"text": "Leurs vecteurs normaux sont orthogonaux"}]}],
+  "exercises": [{"id": "ex1", "title": "Parallélisme", "statement": "Dans un cube ABCDEFGH, montrer que la droite (AE) est parallèle au plan (BFHD)."}]
+}

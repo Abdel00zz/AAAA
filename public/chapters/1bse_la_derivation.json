@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "La dérivation",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Quelle est la dérivée de $f(x) = \\sqrt{x}$ ?", "options": [{"text": "$2\\sqrt{x}$"}, {"text": "$\\frac{1}{2\\sqrt{x}}$", "isCorrect": true}], "explanation": "La dérivée de la fonction racine carrée est $\\frac{1}{2\\sqrt{x}}$ pour $x>0$."}],
+  "exercises": [{"id": "ex1", "title": "Dérivée d'un quotient", "statement": "Calculer la dérivée de la fonction $g(x) = \\frac{3x-1}{x+2}$."}]
+}

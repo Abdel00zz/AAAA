@@ -1,0 +1,8 @@
+
+{
+  "class": "2bsm",
+  "chapter": "Nombres complexes",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Que vaut $i^2$ ?", "options": [{"text": "1"}, {"text": "-1", "isCorrect": true}], "explanation": "Par définition, $i$ est le nombre imaginaire tel que $i^2 = -1$."}],
+  "exercises": [{"id": "ex1", "title": "Module et argument", "statement": "Déterminer le module et un argument de $z = 1 + i\\sqrt{3}$."}]
+}

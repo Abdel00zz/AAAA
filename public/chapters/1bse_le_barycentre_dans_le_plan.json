@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Le barycentre dans le plan",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Qu'est-ce que l'isobarycentre de trois points A, B, C ?", "options": [{"text": "Le barycentre de (A,1), (B,2), (C,3)"}, {"text": "Le barycentre de (A,1), (B,1), (C,1)", "isCorrect": true}], "explanation": "L'isobarycentre est le barycentre où tous les points ont le même poids (généralement 1). C'est aussi le centre de gravité du triangle ABC."}],
+  "exercises": [{"id": "ex1", "title": "Coordonnées du barycentre", "statement": "Soient $A(1,5)$, $B(-2,3)$ et $C(4,1)$. Calculer les coordonnées du barycentre G de $(A,2), (B,1), (C,3)$."}]
+}

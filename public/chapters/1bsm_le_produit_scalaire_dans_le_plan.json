@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Le produit scalaire dans le plan",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_pscalaire_plan_1",
+      "question": "Dans un repère orthonormé, on a $\\vec{u}(2, -1)$ et $\\vec{v}(3, 6)$. Que vaut le produit scalaire $\\vec{u} \\cdot \\vec{v}$ ?",
+      "options": [
+        { "text": "12" },
+        { "text": "0", "isCorrect": true },
+        { "text": "-4" }
+      ],
+      "explanation": "Le produit scalaire est $xx' + yy'$. Donc $\\vec{u} \\cdot \\vec{v} = (2)(3) + (-1)(6) = 6 - 6 = 0$. Les vecteurs sont orthogonaux."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_pscalaire_plan_1",
+      "title": "Équation de droite",
+      "statement": "Déterminer une équation cartésienne de la droite (D) passant par le point $A(1, 2)$ et de vecteur normal $\\vec{n}(3, -1)$."
+    }
+  ]
+}

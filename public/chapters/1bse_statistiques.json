@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Statistiques",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Qu'est-ce que la médiane d'une série statistique ?", "options": [{"text": "La valeur la plus fréquente"}, {"text": "La valeur qui partage la série en deux moitiés de même effectif", "isCorrect": true}], "explanation": "La médiane est la valeur centrale qui sépare la population en deux groupes de taille égale."}],
+  "exercises": [{"id": "ex1", "title": "Calcul de moyenne", "statement": "Calculer la moyenne de la série de notes suivantes : 10, 12, 8, 15, 11."}]
+}

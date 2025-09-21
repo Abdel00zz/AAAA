@@ -1,0 +1,24 @@
+{
+  "class": "tcs",
+  "chapter": "Géométrie dans l'espace",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_tcs_geoespace_1",
+      "question": "Deux droites de l'espace qui ne sont ni sécantes ni parallèles sont dites :",
+      "options": [
+        { "text": "Confondue" },
+        { "text": "Non coplanaires", "isCorrect": true },
+        { "text": "Orthogonales" }
+      ],
+      "explanation": "Si deux droites de l'espace ne sont pas dans le même plan, elles sont non coplanaires. Elles ne peuvent alors être ni sécantes, ni parallèles."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_tcs_geoespace_1",
+      "title": "Positions relatives",
+      "statement": "Soit un cube ABCDEFGH. Quelle est la position relative des droites (AB) et (GC) ?"
+    }
+  ]
+}

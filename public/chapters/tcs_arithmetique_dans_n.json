@@ -1,0 +1,24 @@
+{
+  "class": "tcs",
+  "chapter": "Arithmétique dans ℕ",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_tcs_arithmetique_1",
+      "question": "Un nombre premier est un nombre qui a exactement :",
+      "options": [
+        { "text": "1 diviseur" },
+        { "text": "2 diviseurs", "isCorrect": true },
+        { "text": "Plus de 2 diviseurs" }
+      ],
+      "explanation": "Un nombre premier est un entier naturel qui admet exactement deux diviseurs distincts : 1 et lui-même."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_tcs_arithmetique_1",
+      "title": "Décomposition en facteurs premiers",
+      "statement": "Décomposer le nombre 180 en produit de facteurs premiers."
+    }
+  ]
+}

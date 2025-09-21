@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "La rotation dans le plan",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_rotation_1",
+      "question": "L'image d'un cercle par une rotation est :",
+      "options": [
+        { "text": "Un cercle de même centre et de même rayon", "isCorrect": true },
+        { "text": "Un cercle de même rayon mais de centre différent" },
+        { "text": "Une ellipse" }
+      ],
+      "explanation": "La rotation est une isométrie, elle conserve les distances. L'image d'un cercle est donc un cercle de même rayon. Le centre du nouveau cercle est l'image du centre de l'ancien cercle par la rotation."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_rotation_1",
+      "title": "Image d'un point",
+      "statement": "Dans le plan muni d'un repère orthonormé, on considère le point $A(2,0)$. Déterminer les coordonnées du point $A'$ image de A par la rotation de centre O et d'angle $\\frac{\\pi}{2}$."
+    }
+  ]
+}

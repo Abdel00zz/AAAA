@@ -1,0 +1,73 @@
+{
+  "class": "1bsm",
+  "chapter": "Les Nombres Complexes",
+  "sessionDate": "15 Sep 2024",
+  "quiz": [
+    {
+      "id": "q_complexe_1",
+      "question": "Quelle est la forme algébrique du nombre complexe $z = (2 + 3i)(1 - i)$ ?",
+      "options": [
+        { "text": "$5 + i$", "isCorrect": true },
+        { "text": "$-1 + 5i$" },
+        { "text": "$2 - 3i^2$" },
+        { "text": "$5 - i$" }
+      ],
+      "explanation": "On développe le produit : $(2 + 3i)(1 - i) = 2 - 2i + 3i - 3i^2$. Sachant que $i^2 = -1$, on obtient $2 + i - 3(-1) = 2 + i + 3 = 5 + i$."
+    },
+    {
+      "id": "q_complexe_2",
+      "question": "Quel est le module du nombre complexe $z = 4 - 3i$ ?",
+      "options": [
+        { "text": "7" },
+        { "text": "$\\sqrt{7}$" },
+        { "text": "5", "isCorrect": true },
+        { "text": "25" }
+      ],
+      "explanation": "Le module d'un nombre complexe $z = a + bi$ est donné par la formule $|z| = \\sqrt{a^2 + b^2}$. Pour $z = 4 - 3i$, on a $|z| = \\sqrt{4^2 + (-3)^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "q_complexe_3",
+      "question": "Quelle est la forme exponentielle de $z = 1 + i$ ?",
+      "options": [
+        { "text": "$2e^{i\\pi/4}$" },
+        { "text": "$\\sqrt{2}e^{i\\pi/2}$" },
+        { "text": "$2e^{i\\pi/2}$" },
+        { "text": "$\\sqrt{2}e^{i\\pi/4}$", "isCorrect": true }
+      ],
+      "explanation": "On calcule d'abord le module : $|z| = \\sqrt{1^2 + 1^2} = \\sqrt{2}$. Ensuite, on cherche un argument $\\theta$ tel que $\\cos(\\theta) = \\frac{1}{\\sqrt{2}}$ et $\\sin(\\theta) = \\frac{1}{\\sqrt{2}}$. On reconnaît $\\theta = \\frac{\\pi}{4}$. La forme exponentielle est donc $z = \\sqrt{2}e^{i\\pi/4}$."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_complex_ops",
+      "title": "Opérations et Conjugué",
+      "statement": "On considère les nombres complexes $z_1 = 3 - 2i$ et $z_2 = -1 + 4i$.",
+      "hint": [
+        { "text": "Rappelez-vous que le conjugué de $a+bi$ est $a-bi$ et que $i^2 = -1$." },
+        { "text": "Pour la division, multipliez le numérateur et le dénominateur par le conjugué du dénominateur." }
+      ],
+      "sub_questions": [
+        { "text": "Calculer $z_1 + z_2$ et $z_1 - z_2$." },
+        { "text": "Calculer le produit $z_1 \\times z_2$." },
+        { "text": "Calculer le quotient $\\frac{z_1}{z_2}$." },
+        { "text": "Déterminer le conjugué $\\overline{z_1}$ et calculer $|z_1|^2$." }
+      ]
+    },
+    {
+      "id": "exo_complex_forms",
+      "title": "Formes Trigonométrique et Exponentielle",
+      "statement": "On considère le nombre complexe $z = \\sqrt{3} + i$.",
+      "hint": [
+        { "text": "Pour trouver le module, utilisez $|z| = \\sqrt{a^2+b^2}$." },
+        { "text": "Pour l'argument, factorisez par le module et identifiez les valeurs remarquables du cosinus et du sinus." }
+      ],
+      "sub_questions": [
+        { "text": "Calculer le module de $z$." },
+        { "text": "Déterminer un argument de $z$." },
+        { "text": "En déduire la forme trigonométrique de $z$." },
+        { "text": "En déduire la forme exponentielle de $z$." },
+        { "text": "Calculer $z^3$ en utilisant la formule de Moivre ou la forme exponentielle." }
+      ]
+    }
+  ]
+}

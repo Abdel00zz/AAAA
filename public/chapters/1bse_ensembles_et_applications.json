@@ -1,0 +1,8 @@
+
+{
+  "class": "1bse",
+  "chapter": "Ensembles et applications",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Que signifie qu'une application est injective ?", "options": [{"text": "Tout élément de l'arrivée a au plus un antécédent.", "isCorrect": true}, {"text": "Tout élément de l'arrivée a au moins un antécédent."}], "explanation": "Une application est injective si deux éléments distincts de l'ensemble de départ ont des images distinctes."}],
+  "exercises": [{"id": "ex1", "title": "Image d'un ensemble", "statement": "Soit $f(x)=x^2$ de $\\mathbb{R}$ dans $\\mathbb{R}$. Déterminer l'image de l'intervalle $[-2, 3]$ par f."}]
+}

@@ -1,0 +1,24 @@
+{
+  "class": "2bse",
+  "chapter": "Fonctions exponentielles",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_2bse_exp_1",
+      "question": "Quelle est la dérivée de la fonction $f(x) = e^{3x+1}$ ?",
+      "options": [
+        { "text": "$e^{3x+1}$" },
+        { "text": "$3e^{3x+1}$", "isCorrect": true },
+        { "text": "$(3x+1)e^{3x}$" }
+      ],
+      "explanation": "La dérivée de $e^{u(x)}$ est $u'(x)e^{u(x)}$. Ici $u(x)=3x+1$, donc $u'(x)=3$. La dérivée est $3e^{3x+1}$."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_2bse_exp_1",
+      "title": "Inéquation exponentielle",
+      "statement": "Résoudre dans $\\mathbb{R}$ l'inéquation $e^{2x} - 2e^x - 3 > 0$."
+    }
+  ]
+}

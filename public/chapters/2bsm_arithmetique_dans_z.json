@@ -1,0 +1,8 @@
+
+{
+  "class": "2bsm",
+  "chapter": "Arithmétique dans ℤ",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Que dit le théorème de Bézout ?", "options": [{"text": "Si a et b sont premiers entre eux, alors il existe u,v entiers tels que au+bv=1.", "isCorrect": true}, {"text": "Tout entier se décompose de manière unique en produit de facteurs premiers."}], "explanation": "Le théorème de Bézout donne une condition nécessaire et suffisante pour que deux entiers soient premiers entre eux."}],
+  "exercises": [{"id": "ex1", "title": "PGCD", "statement": "Calculer le PGCD de 120 et 84 en utilisant l'algorithme d'Euclide."}]
+}

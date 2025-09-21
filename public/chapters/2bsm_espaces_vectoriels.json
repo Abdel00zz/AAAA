@@ -1,0 +1,8 @@
+
+{
+  "class": "2bsm",
+  "chapter": "Espaces vectoriels",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Quelle est la dimension de $\\mathbb{R}^3$ ?", "options": [{"text": "2"}, {"text": "3", "isCorrect": true}], "explanation": "$\\mathbb{R}^3$ est l'espace vectoriel des triplets de réels, sa dimension est 3."}],
+  "exercises": [{"id": "ex1", "title": "Sous-espace vectoriel", "statement": "Montrer que $F = \\{(x,y,z) \\in \\mathbb{R}^3 | x+y+z=0\\}$ est un sous-espace vectoriel de $\\mathbb{R}^3$."}]
+}

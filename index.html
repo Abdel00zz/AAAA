@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le centre scientifique</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#DC6B3E',
+              'primary-light': '#FEE2E2', // A lighter, more versatile light tone for the orange
+              secondary: '#64748B', // slate-500
+              background: '#F8FAFC', // slate-50
+              surface: '#FFFFFF',
+              border: '#E2E8F0', // slate-200
+              'border-hover': '#CBD5E1', // slate-300
+              text: '#1E293B', // slate-800 (modern black)
+              'text-secondary': '#64748B', // slate-500
+              'text-disabled': '#94A3B8', // slate-400
+              success: '#10B981', // emerald-500
+              warning: '#F59E0B', // amber-500
+              error: '#EF4444', // red-500
+              info: '#3B82F6', // blue-500
+              'modal-backdrop': 'rgba(248, 250, 252, 0.8)', // slate-50 with opacity
+              // Legacy colors mapped to new system for compatibility
+              'card-bg': '#FFFFFF',
+              'text-primary': '#1E293B',
+              'border-color': '#E2E8F0',
+              'light-gray': '#E2E8F0',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Roboto Slab', 'serif'],
+              title: ['Alata', 'sans-serif'],
+              button: ['"Nunito Sans"', 'sans-serif'],
+              libertinus: ['"Source Serif 4"', 'serif'],
+              brand: ['"Marcellus SC"', 'serif'],
+              lato: ['Lato', 'sans-serif'],
+              'playfair': ['"Playfair Display"', 'serif'],
+              'garamond': ['"EB Garamond"', 'serif'],
+            },
+            boxShadow: {
+              'claude': '0 4px 12px rgba(0, 0, 0, 0.08)',
+            },
+            keyframes: {
+                fadeIn: { '0%': { opacity: 0 }, '100%': { opacity: 1 } },
+                slideInUp: { '0%': { transform: 'translateY(10px)', opacity: 0 }, '100%': { transform: 'translateY(0)', opacity: 1 } },
+                slideInRight: { '0%': { transform: 'translateX(100%)' }, '100%': { transform: 'translateX(0)' } },
+                pulse: { '0%, 100%': { opacity: 1, transform: 'scale(1)' }, '50%': { opacity: .9, transform: 'scale(1.02)' } },
+                ping: { '75%, 100%': { transform: 'scale(2)', opacity: 0 } },
+                cursorBlink: { '0%, 100%': { opacity: 1 }, '50%': { opacity: 0 } },
+            },
+            animation: {
+                fadeIn: 'fadeIn 0.3s ease-out forwards',
+                slideInUp: 'slideInUp 0.4s ease-out forwards',
+                slideInRight: 'slideInRight 0.5s ease-out forwards',
+                pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
+                cursorBlink: 'cursorBlink 1.2s step-end infinite',
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@400;500;600;700&family=Lato:wght@400;700&family=Marcellus+SC&family=Nunito+Sans:wght@400;600;700&family=Roboto+Slab:wght@400;700&family=Source+Serif+4:wght@700&family=Playfair+Display:wght@700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        body { 
+          font-family: 'Inter', sans-serif;
+          background-color: #F8FAFC; /* slate-50 */
+          color: #1E293B; /* slate-800 */
+          font-size: 15px;
+          line-height: 1.6;
+          letter-spacing: -0.01em;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        .antique-list::marker {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 700;
+            color: #64748B; /* slate-500 */
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+    
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.1.1/",
+        "react": "https://aistudiocdn.com/react@^19.1.1",
+        "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+        "react-dom": "https://aistudiocdn.com/react-dom@^19.1.1",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+        "better-react-mathjax": "https://aistudiocdn.com/better-react-mathjax@^2.3.0"
+      }
+    }
+    </script>
+
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

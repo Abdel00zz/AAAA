@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "La dérivation",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_derivation_1",
+      "question": "Quelle est la dérivée de la fonction $f(x) = 3x^4 - 5x + 1$ ?",
+      "options": [
+        { "text": "$12x^3 - 5$", "isCorrect": true },
+        { "text": "$12x^3$" },
+        { "text": "$4x^3 - 5$" }
+      ],
+      "explanation": "On utilise la formule $(x^n)' = nx^{n-1}$. La dérivée de $3x^4$ est $3 \\times 4x^3 = 12x^3$. La dérivée de $-5x$ est $-5$. La dérivée de 1 est 0. Donc $f'(x) = 12x^3 - 5$."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_derivation_1",
+      "title": "Équation de la tangente",
+      "statement": "Soit la fonction $g(x) = x^2 + 2x - 3$. Déterminer l'équation de la tangente à la courbe de $g$ au point d'abscisse $x_0 = 1$."
+    }
+  ]
+}

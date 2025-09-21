@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Le barycentre dans le plan",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_barycentre_1",
+      "question": "Si G est le barycentre des points pondérés $(A, 2)$ et $(B, 1)$, quelle relation vectorielle est correcte ?",
+      "options": [
+        { "text": "$2\\vec{GA} + \\vec{GB} = \\vec{0}$", "isCorrect": true },
+        { "text": "$\\vec{GA} + 2\\vec{GB} = \\vec{0}$" },
+        { "text": "$2\\vec{AG} + \\vec{BG} = \\vec{0}$" }
+      ],
+      "explanation": "La définition du barycentre G de $(A, \\alpha)$ et $(B, \\beta)$ est $\\alpha\\vec{GA} + \\beta\\vec{GB} = \\vec{0}$. Ici $\\alpha=2$ et $\\beta=1$."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_barycentre_1",
+      "title": "Construction d'un barycentre",
+      "statement": "Soit un triangle ABC. Construire le point G, barycentre de $(A, 1)$, $(B, 2)$ et $(C, -1)$."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+
+{
+  "class": "2bsm",
+  "chapter": "Calcul intégral",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Que représente géométriquement $\\int_a^b f(x) dx$ si $f$ est positive ?", "options": [{"text": "La pente de la tangente"}, {"text": "L'aire sous la courbe de f entre a et b", "isCorrect": true}], "explanation": "L'intégrale définie d'une fonction positive correspond à l'aire du domaine délimité par la courbe, l'axe des abscisses et les droites x=a et x=b."}],
+  "exercises": [{"id": "ex1", "title": "Intégration par parties", "statement": "Calculer $\\int_0^1 x e^x dx$."}]
+}

@@ -1,0 +1,24 @@
+{
+  "class": "1bsm",
+  "chapter": "Les suites numériques",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_suites_1",
+      "question": "Soit $(u_n)$ une suite arithmétique de premier terme $u_0 = 3$ et de raison $r=4$. Que vaut $u_5$ ?",
+      "options": [
+        { "text": "20" },
+        { "text": "23", "isCorrect": true },
+        { "text": "15" }
+      ],
+      "explanation": "La formule du terme général d'une suite arithmétique est $u_n = u_0 + nr$. Donc $u_5 = 3 + 5 \\times 4 = 3 + 20 = 23$."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_suites_1",
+      "title": "Suite géométrique",
+      "statement": "Soit $(v_n)$ une suite géométrique de premier terme $v_0=2$ et de raison $q=3$. Calculer la somme des 4 premiers termes $S = v_0+v_1+v_2+v_3$."
+    }
+  ]
+}

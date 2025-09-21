@@ -1,0 +1,24 @@
+{
+  "class": "2bse",
+  "chapter": "Équations différentielles",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_2bse_eqdiff_1",
+      "question": "Les solutions de l'équation différentielle $y' = ay$ sont de la forme :",
+      "options": [
+        { "text": "$y(x) = Ce^{ax}$", "isCorrect": true },
+        { "text": "$y(x) = C e^{-ax}$" },
+        { "text": "$y(x) = ax + C$" }
+      ],
+      "explanation": "Les solutions de l'équation différentielle linéaire du premier ordre $y' = ay$ sont les fonctions $x \\mapsto Ce^{ax}$ où C est une constante réelle."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_2bse_eqdiff_1",
+      "title": "Résolution d'équation",
+      "statement": "Résoudre l'équation différentielle $y' - 2y = 0$ avec la condition initiale $y(0) = 3$."
+    }
+  ]
+}

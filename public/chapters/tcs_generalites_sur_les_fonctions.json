@@ -1,0 +1,24 @@
+{
+  "class": "tcs",
+  "chapter": "Généralités sur les fonctions",
+  "sessionDate": "À définir",
+  "quiz": [
+    {
+      "id": "q_tcs_fonctions_1",
+      "question": "L'ensemble de définition de la fonction $f(x) = \\frac{1}{x-1}$ est :",
+      "options": [
+        { "text": "$\\mathbb{R}$" },
+        { "text": "$\\mathbb{R} \\setminus \\{1\\}$", "isCorrect": true },
+        { "text": "$[1, +\\infty[$" }
+      ],
+      "explanation": "Le dénominateur d'une fraction ne peut pas être nul. On doit donc avoir $x-1 \\neq 0$, soit $x \\neq 1$. L'ensemble de définition est donc $\\mathbb{R}$ privé de 1."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exo_tcs_fonctions_1",
+      "title": "Parité d'une fonction",
+      "statement": "Étudier la parité de la fonction $g(x) = x^2 + \\cos(x)$."
+    }
+  ]
+}

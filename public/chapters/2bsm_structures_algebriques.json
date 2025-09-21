@@ -1,0 +1,8 @@
+
+{
+  "class": "2bsm",
+  "chapter": "Structures algébriques",
+  "sessionDate": "À définir",
+  "quiz": [{"id": "q1", "question": "Qu'est-ce qu'un groupe abélien ?", "options": [{"text": "Un groupe dont la loi est associative"}, {"text": "Un groupe dont la loi est commutative", "isCorrect": true}], "explanation": "Un groupe est dit abélien (ou commutatif) si sa loi de composition interne est commutative."}],
+  "exercises": [{"id": "ex1", "title": "Exemple de groupe", "statement": "Montrer que $(\\mathbb{Z}, +)$ est un groupe."}]
+}
